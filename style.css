@@ -1,0 +1,375 @@
+/* GLOBAL CSS */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bold{
+	font-weight:bold;
+}
+.main-section{
+	margin-bottom:15px;
+}
+a:hover{
+	text-decoration:none;
+}
+#banner_sml{
+	height:60px;
+}
+#banner_lg{
+	height:145px;
+}
+.dark_red_bg{
+	background:#A82A33;
+}
+.light_red_bg{
+	background:#BC2836;
+}
+.light_red{
+	color:#BC2836;
+}
+.dark_grey{
+	color:#4D5456;
+}
+.light_grey{
+	color:#828E94;
+}
+.light_grey_bg{
+	background:#828E94;
+}
+.creme{
+	color:#F2DDB1;
+}
+.white{
+	color:#FFF;
+}
+h1{
+	font-size:50px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:36px;
+	color:#828E94;
+}
+h4{
+	font-size:18px;
+}
+h5{
+	font-size:21px;
+}
+section{
+	padding-top:25px;
+	height:auto;
+}
+.italics{
+	font-style:italic;
+}
+p{
+	font-size:14px;
+}
+.add_space{
+	margin:30px 0;
+}
+.padding_top{
+	padding-top:75px;
+}
+/* NAVIGATION */
+#title{
+	margin-left:13px;
+}
+#first_link{
+	margin-left:15px;
+}
+.links{
+	line-height:125px;
+	padding:0 7px;
+}
+menu ul a{
+	text-decoration:none;
+}
+li{
+	display:inline;
+	float:left;
+}
+.slicknav_menu {
+	display:none;
+}
+#espanol{
+	margin-top:35px;
+}
+/* MAIN IMAGE */
+#home{
+	height:466px;
+}
+.text_padding{
+	padding:7px;
+	width:300px;
+}
+.owl-pagination{
+	display:none;
+}
+/* CALL TO ACTION */
+#call_to_action{
+	height:245px;
+	background-size:100% auto;
+	background-image:url(../img/c-a_image.jpg);
+	background-repeat:no-repeat;
+}
+#c-a_padding{
+	padding-top:85px;
+}
+/* WHAT'S A P.A? */
+#why_hire{
+	background-color:rgba(168, 42, 51, .1);
+	height:250px;
+}
+/* Our Services */
+
+ul.b {
+    list-style-type: disc;
+	list-style:inside;
+}
+/* FOOTER */
+footer{
+	height:150px;
+}
+
+/* CANCELLING BOOTSTRAP STYLING */
+
+.navbar-default{
+	border-radius: 0px !important;
+	border-color: transparent !important;
+	box-shadow: none !important;	
+}
+.navbar{
+	margin-bottom:0px !important;
+	border:none !important;	
+}
+ul{
+	margin-bottom:0 !important;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 480px) { 
+/* Styles */
+#friedman{
+	font-size:18px !important;
+}
+#pia{
+	font-size:14px !important;
+}
+.slicknav_menu {
+		display:block;
+		background: #A82A33;
+		padding: 5px;
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #F2DDB1;
+		}
+	#menu {
+		display:none;
+	}
+	h4{
+		font-size:12px ;
+	}
+	.padding_top{
+		padding-top:3px ;
+	}
+	.add_space{
+		margin:5px 0;
+	}
+	h3{
+		font-size:18px;
+	}
+	.text_padding {
+		padding: 4px;
+		width: 150px;
+	}
+	.banner_lg{
+		height:50px;
+	}
+	#home{
+		height:auto;
+	}
+	#c-a_padding {
+	 padding-top: 20px ;
+	}
+	#call_to_action{
+		height:150px;
+		background-image:url(../img/c-a_image.jpg);
+		background-repeat:no-repeat;
+	}
+
+	#insurance_link{
+		margin-top:70px;
+	}
+	li{
+	float:none;
+}
+.links{
+	line-height:0;
+	}
+}
+@media (min-width: 480px) and (max-width: 660px) {
+/* Styles */
+	h4{
+		font-size:12px ;
+	}
+	.padding_top{
+		padding-top:3px ;
+	}
+	.add_space{
+		margin:5px 0;
+	}
+	h3{
+		font-size:18px;
+	}
+	.text_padding {
+		padding: 4px;
+		width: 150px;
+	}
+	.banner_lg{
+		height:50px;
+	}
+	#c-a_padding {
+	 padding-top: 20px ;
+	}
+	#call_to_action{
+		height:150px;
+		background-image:url(../img/c-a_image.jpg);
+		background-repeat:no-repeat;
+	}
+	.slicknav_menu {
+		display:block;
+		background: #A82A33;
+		padding: 5px;
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #F2DDB1;
+		}
+	#menu {
+		display:none;
+	}
+	li{
+	float:none;
+}
+.links{
+	line-height:0;
+	}
+		#home{
+	height:450px;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (min-width: 660px) and (max-width: 767px) {
+/* Styles */
+	#home{
+	height:450px;
+}
+h4{
+		font-size:12px ;
+	}
+	.padding_top{
+		padding-top:3px ;
+	}
+	.add_space{
+		margin:5px 0;
+	}
+	h3{
+		font-size:18px;
+	}
+	.text_padding {
+		padding: 4px;
+		width: 150px;
+	}
+	.banner_lg{
+		height:50px;
+	}
+	#c-a_padding {
+	 padding-top: 20px ;
+	}
+	#call_to_action{
+		height:150px;
+		background-image:url(../img/c-a_image.jpg);
+		background-repeat:no-repeat;
+	}
+	.slicknav_menu {
+		display:block;
+		background: #A82A33;
+		padding: 5px;
+	}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #F2DDB1;
+		}
+	#menu {
+		display:none;
+	}
+	li{
+	float:none;
+}
+.links{
+	line-height:0;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	h4{
+		font-size:12px ;
+	}
+	.padding_top{
+		padding-top:3px ;
+	}
+	.add_space{
+		margin:5px 0;
+	}
+	h3{
+		font-size:18px;
+	}
+	.text_padding {
+		padding: 4px;
+		width: 150px;
+	}
+	.banner_lg{
+		height:50px;
+	}
+	#c-a_padding {
+	 padding-top: 20px ;
+	}
+	#call_to_action{
+		height:150px;
+		background-image:url(../img/c-a_image.jpg);
+		background-repeat:no-repeat;
+	}
+	.links{
+	line-height:0;
+	}
+
+}
+@media (max-width:931px){
+.slicknav_menu {
+		display:block;
+		background: #A82A33;
+		padding: 5px;
+	}
+	li{
+	float:none;
+}
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #F2DDB1;
+		}
+	#menu {
+		display:none;
+	}
+	.links{
+	line-height:0;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+#first_link{
+	margin-left:5px;
+}
+#home{
+	height:450px;
+}
+}
